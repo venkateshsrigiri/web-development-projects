@@ -1,0 +1,12 @@
+/* src/index.css */
+body { font-family: system-ui, sans-serif; padding: 20px;background-color: black;text-align: center; }
+a { color: blue; text-decoration: none; }
+button { padding: 6px 10px; margin-left: 8px; }
+nav { margin-bottom: 20px; }
+.event-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.event-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
